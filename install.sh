@@ -3,7 +3,7 @@
 echo "Iniciando a instalação e download dos arquivos..."
     
 # URL do repositório do GitHub (substitua pelo correto)
-GITHUB_URL="https://github.com/BielZcode1/AstroModulosL/blob/main"
+GITHUB_URL="https://raw.githubusercontent.com/BielZcode1/AstroModulosL/refs/heads/main"
 
 # Lista de arquivos a serem baixados
 FILES=("modulcreate.sh" "createteste.sh" "deleteuser.sh" "moduldelete.sh")

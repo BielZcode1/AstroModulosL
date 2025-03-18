@@ -22,5 +22,5 @@ fi
 # Salvando a senha em um arquivo
 echo "$password" > /etc/SSHPlus/senha/$username
 
-# Adicionando o usuário no banco de dados
-echo "$username $sshlimiter" >> usuarios.db
+# Inserindo os dados no banco de dados SQLite
+sqlite3 usuarios.db "INSERT INTO usuarios (username, sshlimiter) VALUES ('$username', '$sshlimiter');"

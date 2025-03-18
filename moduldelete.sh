@@ -8,6 +8,7 @@ arquivos=(
     "moduldelete.sh"
     "install.sh"
     "usuarios.db"
+    "add.sh"
 )
 
 # Remover os arquivos

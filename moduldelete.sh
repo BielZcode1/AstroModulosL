@@ -6,6 +6,7 @@ arquivos=(
     "createteste.sh"
     "deleteuser.sh"
     "moduldelete.sh"
+    "install.sh"
     "usuarios.db"
 )
 

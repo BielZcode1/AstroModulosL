@@ -2,11 +2,11 @@
 
 # Definindo os arquivos a serem removidos
 arquivos=(
-    "/root/modulcreate.sh"
-    "/root/createteste.sh"
-    "/root/deleteuser.sh"
-    "/root/moduldelete.sh"
-    "/root/usuarios.db"
+    "modulcreate.sh"
+    "createteste.sh"
+    "deleteuser.sh"
+    "moduldelete.sh"
+    "usuarios.db"
 )
 
 # Remover os arquivos

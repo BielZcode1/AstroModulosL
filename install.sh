@@ -6,7 +6,7 @@ echo "Iniciando a instalação e download dos arquivos..."
 GITHUB_URL="https://raw.githubusercontent.com/BielZcode1/AstroModulosL/refs/heads/main"
 
 # Lista de arquivos a serem baixados
-FILES=("modulcreate.sh" "createteste.sh" "deleteuser.sh" "moduldelete.sh")
+FILES=("modulcreate.sh" "createteste.sh" "deleteuser.sh" "moduldelete.sh, add.sh")
 
 # Criar banco de dados local se não existir
 if [ ! -f "usuarios.db" ]; then
